@@ -46,8 +46,9 @@ group :development, :test do
   gem 'pry-rails'
   gem 'compass-rails', '3.1.0'
   gem 'sprockets', '3.7.2'
-  gem 'devise'
   gem 'kaminari'
+  gem 'devise'
+  gem  'rspec-rails'
 end
 
 group :development do

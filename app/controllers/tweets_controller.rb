@@ -3,12 +3,29 @@ class TweetsController < ApplicationController
     @tweets = Tweet.all
   end
 
+  def show
+
+  end
+
   def new
     @tweet = Tweet.new
   end
 
   def create
     Tweet.create(tweet_params)
+  end
+
+  def edit
+
+  end
+
+  def update
+
+  end
+
+  def detroy
+    tweet = Tweet.find(params[:id])
+    tweet.destroy
   end
 
   private
